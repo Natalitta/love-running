@@ -58,12 +58,12 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-/*creates the level of zoom for the hero image*/
-@key-frames hero-zoom {
-    from {
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
         transform: scale(1);
     }
-    to {
+    to{
         transform: scale(1.1);
     }
 }
